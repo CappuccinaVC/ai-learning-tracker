@@ -1,0 +1,61 @@
+import type { Badge } from "./types";
+
+export const BADGES: Badge[] = [
+  { id: "preflight", name: "Pre-Flight Complete", description: "Finished the entire setup checklist", icon: "Rocket", rarity: "common", criteria: "Complete all Setup tasks" },
+  { id: "first-day", name: "Day 1 Done", description: "Finished your first day of learning", icon: "Sun", rarity: "common", criteria: "Complete first daily check-in" },
+  { id: "streak-7", name: "On Fire", description: "7-day streak", icon: "Flame", rarity: "common", criteria: "7 consecutive days of activity" },
+  { id: "streak-30", name: "Inferno", description: "30-day streak", icon: "Flame", rarity: "rare", criteria: "30 consecutive days" },
+  { id: "streak-100", name: "Unstoppable", description: "100-day streak", icon: "Flame", rarity: "epic", criteria: "100 consecutive days" },
+  { id: "first-prompt", name: "First Prompt", description: "Logged your first prompt", icon: "MessageSquare", rarity: "common", criteria: "Add 1 prompt to library" },
+  { id: "prompt-50", name: "Prompt Whisperer", description: "50 prompts in library", icon: "MessageSquare", rarity: "rare", criteria: "Add 50 prompts" },
+  { id: "local-hero", name: "Local Hero", description: "First local LLM run", icon: "Cpu", rarity: "rare", criteria: "Install + run Ollama" },
+  { id: "rag-master", name: "RAG Master", description: "Shipped first RAG app", icon: "Database", rarity: "epic", criteria: "Complete Phase 5 RAG capstone" },
+  { id: "agent-architect", name: "Agent Architect", description: "Shipped first agentic app", icon: "Bot", rarity: "epic", criteria: "Complete Phase 5 agents capstone" },
+  { id: "phase-0", name: "Phase 0 Cleared", description: "Setup & Foundation done", icon: "CheckCircle", rarity: "common", criteria: "Finish all Week 1 tasks" },
+  { id: "phase-1", name: "Phase 1 Cleared", description: "AI Literacy & Fundamentals done", icon: "CheckCircle", rarity: "common", criteria: "Finish Weeks 2-5" },
+  { id: "phase-2", name: "Phase 2 Cleared", description: "Prompt Engineering Mastery done", icon: "CheckCircle", rarity: "common", criteria: "Finish Weeks 6-9" },
+  { id: "phase-3", name: "Phase 3 Cleared", description: "AI Tools Mastery done", icon: "CheckCircle", rarity: "rare", criteria: "Finish Weeks 10-14" },
+  { id: "phase-4", name: "Phase 4 Cleared", description: "Technical Foundations done", icon: "CheckCircle", rarity: "rare", criteria: "Finish Weeks 15-20" },
+  { id: "phase-5", name: "Phase 5 Cleared", description: "Applied AI & Building done", icon: "CheckCircle", rarity: "epic", criteria: "Finish Weeks 21-28" },
+  { id: "phase-6", name: "Phase 6 Cleared", description: "Advanced & Expert Level done", icon: "Crown", rarity: "legendary", criteria: "Finish Weeks 29-40" },
+  { id: "modality-image", name: "Image Operator", description: "Image generation mastery", icon: "Image", rarity: "epic", criteria: "Complete Image track" },
+  { id: "modality-video", name: "Video Operator", description: "Video generation mastery", icon: "Film", rarity: "epic", criteria: "Complete Video track" },
+  { id: "modality-audio", name: "Audio Operator", description: "Audio generation mastery", icon: "Music", rarity: "epic", criteria: "Complete Audio track" },
+  { id: "elite", name: "Elite AI Operator", description: "Mastered all 3 modalities + main roadmap", icon: "Sparkles", rarity: "legendary", criteria: "Reach Level 10" },
+  { id: "github-pro", name: "GitHub Citizen", description: "First commit pushed", icon: "Github", rarity: "common", criteria: "Manual claim after first push" },
+  { id: "first-deploy", name: "Shipped It", description: "Deployed first AI app", icon: "Send", rarity: "rare", criteria: "Manual claim after first deploy" },
+  { id: "open-source", name: "Open Source Contributor", description: "First PR merged into an OSS AI project", icon: "GitPullRequest", rarity: "epic", criteria: "Phase 6 OSS contribution" },
+  { id: "xp-1000", name: "Four Digits", description: "Earned 1000 XP", icon: "Trophy", rarity: "rare", criteria: "1000 total XP" },
+  { id: "xp-5000", name: "XP Tycoon", description: "Earned 5000 XP", icon: "Trophy", rarity: "epic", criteria: "5000 total XP" },
+];
+
+export const RARITY_COLORS = {
+  common: {
+    text: "text-foreground",
+    iconBg: "bg-secondary",
+    iconText: "text-foreground",
+    accent: "border-border",
+    label: "Common",
+  },
+  rare: {
+    text: "text-blue-600 dark:text-blue-400",
+    iconBg: "bg-blue-500/10",
+    iconText: "text-blue-600 dark:text-blue-400",
+    accent: "border-blue-500/30",
+    label: "Rare",
+  },
+  epic: {
+    text: "text-purple-600 dark:text-purple-400",
+    iconBg: "bg-purple-500/10",
+    iconText: "text-purple-600 dark:text-purple-400",
+    accent: "border-purple-500/30",
+    label: "Epic",
+  },
+  legendary: {
+    text: "text-amber-600 dark:text-amber-400",
+    iconBg: "bg-amber-500/10",
+    iconText: "text-amber-600 dark:text-amber-400",
+    accent: "border-amber-500/40",
+    label: "Legendary",
+  },
+} as const;
