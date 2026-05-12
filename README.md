@@ -17,7 +17,6 @@ A modern, gamified Next.js dashboard that turns your 4 AI mastery markdown files
 
 <p align="center">
   <a href="./screenshots/dashboard.png">
-    <img src="./screenshots/dashboard.png" alt="Dashboard" width="950" />
   </a>
 </p>
 <p align="center"><em>Dashboard — click to view full size</em></p>
@@ -30,13 +29,10 @@ A modern, gamified Next.js dashboard that turns your 4 AI mastery markdown files
 <br />
 
 <p align="center">
-  <a href="./screenshots/roadmap.png">
     <img width="2560" height="1305" alt="Main" src="https://github.com/user-attachments/assets/4e03a928-4cf9-49fd-beb4-bbd37a8f8467" />
   </a>
-  <a href="./screenshots/rankings.png">
  <img width="2560" height="1305" alt="Image" src="https://github.com/user-attachments/assets/b6db0d85-a956-475b-907a-3139da54a367" />
   </a>
-    <a href="./screenshots/rankings.png">
 <img width="2560" height="1305" alt="Rankings" src="https://github.com/user-attachments/assets/be213dbd-68d0-443e-a390-c79a8b62da2f" />
   </a>
 
