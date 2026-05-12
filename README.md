@@ -14,15 +14,45 @@ A modern, gamified Next.js dashboard that turns your 4 AI mastery markdown files
 
 ## Screenshots
 
-Add 2-4 screenshots before or after first publish (you can update anytime):
 
-```md
-![Dashboard](./screenshots/dashboard.png)
-![Roadmap](./screenshots/roadmap.png)
-![Rankings](./screenshots/rankings.png)
-```
+<p align="center">
+  <a href="./screenshots/dashboard.png">
+    <img src="./screenshots/dashboard.png" alt="Dashboard" width="950" />
+  </a>
+</p>
+<p align="center"><em>Dashboard — click to view full size</em></p>
 
-Recommended folder: `./screenshots/`
+<img width="2560" height="1305" alt="Dashboard" src="https://github.com/user-attachments/assets/2c1be980-af9c-4210-893b-b2cc0d0b69c6" />
+
+
+<details>
+<summary><strong>More screenshots (click to expand)</strong></summary>
+<br />
+
+<p align="center">
+  <a href="./screenshots/roadmap.png">
+    <img width="2560" height="1305" alt="Main" src="https://github.com/user-attachments/assets/4e03a928-4cf9-49fd-beb4-bbd37a8f8467" />
+  </a>
+  <a href="./screenshots/rankings.png">
+ <img width="2560" height="1305" alt="Image" src="https://github.com/user-attachments/assets/b6db0d85-a956-475b-907a-3139da54a367" />
+  </a>
+    <a href="./screenshots/rankings.png">
+<img width="2560" height="1305" alt="Rankings" src="https://github.com/user-attachments/assets/be213dbd-68d0-443e-a390-c79a8b62da2f" />
+  </a>
+
+
+
+<p align="center">
+  <a href="./screenshots/courses.png">
+    <img src="./screenshots/courses.png" alt="Courses" width="48%" />
+  </a>
+  <a href="./screenshots/settings.png">
+    <img src="./screenshots/settings.png" alt="Settings" width="48%" />
+  </a>
+</p>
+</details>
+
+
 
 ## Features
 
@@ -118,39 +148,6 @@ NEXT_PUBLIC_GITHUB_REPO_URL=https://github.com/YOUR_USERNAME/ai-learning-tracker
 
 Restart `npm run dev`.
 
-## Publish to GitHub (Web + Desktop, beginner-safe)
-
-1. On GitHub Web, create a new repository:
-   - Name: `ai-learning-tracker` (or your preferred name)
-   - Visibility: `Public`
-   - Leave `README`, `.gitignore`, and `License` unchecked (because this project already has files)
-2. In GitHub Desktop:
-   - `File` -> `Add Local Repository...`
-   - Select this project folder (the folder containing `package.json`)
-3. If prompted, initialize git for this folder.
-4. In Desktop, set/publish remote to your GitHub repo URL.
-5. Commit all files with message: `Initial public release`.
-6. Click `Push origin`.
-7. Refresh GitHub Web and verify files are visible.
-
-Tip: Repo description on GitHub is edited separately in the GitHub Web UI (About section). README content appears on the repo homepage below that description.
-
-## Deploy to Netlify
-
-```bash
-npm run build
-```
-
-Then:
-- Connect your GitHub repo (recommended): push to GitHub, then "Add new site" -> "Import from Git" on Netlify
-- Add your Supabase env vars in Netlify -> Site Settings -> Environment Variables
-
-## Deploy to Vercel (recommended for Next.js)
-
-1. Push this repo to GitHub
-2. Import the repo in Vercel
-3. Add optional env vars from `.env.local.example`
-4. Deploy
 
 ## Tech Stack
 
