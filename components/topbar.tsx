@@ -6,7 +6,7 @@ import { formatNumber } from "@/lib/utils";
 import { ThemeToggle } from "./theme-toggle";
 import { useCommandPalette } from "./command-palette-provider";
 
-const repoUrl = process.env.NEXT_PUBLIC_GITHUB_REPO_URL ?? "https://github.com/CappuccinaVB/ai-learning-tracker";
+const repoUrl = process.env.NEXT_PUBLIC_GITHUB_REPO_URL ?? "https://github.com/CappuccinaVC/ai-learning-tracker";
 
 export function TopBar() {
   const xp = useStore((s) => s.xp);
