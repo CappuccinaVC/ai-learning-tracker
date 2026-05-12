@@ -2,11 +2,28 @@
 
 A modern, gamified Next.js dashboard that turns your 4 AI mastery markdown files into an interactive progress tracker.
 
+This project is fully populated out of the box with roadmap phases, track tasks, tools, courses, achievements, and model rankings, so users can start immediately without building content from scratch.
+
 ## Why this project
 
 - Learn AI with a structured roadmap instead of random tutorials.
 - Track progress with XP, levels, streaks, and weekly focus.
 - Stay local-first with no required login.
+
+## What you'll find inside
+
+- **Complete learning system**: Setup checklist, 40-week main roadmap, and 12-week Image/Video/Audio specialization tracks.
+- **Built-in resources**: Curated tools inventory, course library, gamification engine (XP/levels/badges), and optional Supabase sync.
+- **Live rankings module**: AI model rankings with category/source controls and refresh support.
+- **Beginner-friendly setup**: Run locally in minutes, then deploy to Vercel with minimal configuration.
+
+### Project structure at a glance
+
+- `app/` — Pages and routes (dashboard, setup, roadmap, tracks, rankings, settings, API endpoints)
+- `components/` — UI building blocks (topbar, cards, tabs, navigation, interactive widgets)
+- `lib/data/` — Core learning content (phases, tasks, tools, courses, badges)
+- `lib/store.ts` and `lib/xp-engine.ts` — Progress state, XP logic, and gamification behavior
+- `README.md` + `CONTRIBUTING.md` + `SECURITY.md` — Usage, contribution, and security guidance
 
 ## Public demo
 
@@ -40,10 +57,10 @@ A modern, gamified Next.js dashboard that turns your 4 AI mastery markdown files
 
 <p align="center">
   <a href="./screenshots/courses.png">
-    <img src="./screenshots/courses.png" alt="Courses" width="48%" />
+
   </a>
   <a href="./screenshots/settings.png">
-    <img src="./screenshots/settings.png" alt="Settings" width="48%" />
+
   </a>
 </p>
 </details>
