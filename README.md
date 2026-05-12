@@ -10,7 +10,7 @@ A modern, gamified Next.js dashboard that turns your 4 AI mastery markdown files
 
 ## Public demo
 
-- Add your live URL here after deployment: `https://your-demo-url`
+- [![Live Demo](https://img.shields.io/badge/Live-Demo-22c55e?style=for-the-badge)](https://ai-learning-tracker-smoky.vercel.app/)
 
 ## Screenshots
 
